@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>Those of Admin Side Resources, that should be kept private from Client. It can range from UI Elements to Functionalities.</Description>
+  </PropertyGroup>
+
+</Project>

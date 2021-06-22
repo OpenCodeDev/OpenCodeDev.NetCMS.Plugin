@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>This is Shared resources between Client, Server and Admin. it could  be Model/Validation, Abstraction like Api Controllers and also Shared UI Components between Client and Admin.</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Max Samson</Authors>
+    <Description>This is Server part of a plugin where all the logic and magic happen, it should be very easy and straight forward for the user to activate and start using it right away. Even if you don't need Admin UI or Client UI and you only for example: hook to existant events to alter the bahavior you should still create Shared and Admin side even if its empty.</Description>
+    <Copyright>Max Samson 2021 C All Right Reserved.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\OpenCodeDev.NetCMS.Core.csproj" />
+  </ItemGroup>
+
+</Project>

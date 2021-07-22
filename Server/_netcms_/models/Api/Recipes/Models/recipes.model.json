@@ -1,0 +1,48 @@
+{
+  "Collection": {
+    "Name": "Recipe"
+  },
+  "Attributes": [
+    {
+      "Name": "Serializable",
+      "Value": ""
+    },
+    {
+      "Name": "ProtoContract",
+      "Value": ""
+    }
+  ],
+  "Usings": [ "ProtoBuf", "System", "System.Collections.Generic", "System.ComponentModel.DataAnnotations", "System.ComponentModel.DataAnnotations.Schema" ],
+  "Properties": [
+    {
+      "Name": "Name",
+      "Type": "System.String",
+      "Default": "\"dsdasd\"",
+      "Private": false,
+      "Unique": false,
+      "ServerSideOnly": false,
+      "ArgumentOf": [ "Update", "Create", "Fetch" ],
+      "Attributes": [
+        {
+          "Name": "Required",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Duration",
+      "Type": "System.Int32",
+      "Default": null,
+      "Private": false,
+      "Unique": false,
+      "ServerSideOnly": false,
+      "ArgumentOf": [ "Update", "Create", "Fetch" ],
+      "Attributes": [
+        {
+          "Name": "Required",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -9,24 +9,47 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.MyPlugin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.MyPlugin.Admin", "Admin\OpenCodeDev.NetCMS.MyPlugin.Admin.csproj", "{69194935-ABDD-423A-9928-FF6E542EA519}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.Core.Server", "..\OpenCodeDev.NetCMS.Core\Server\OpenCodeDev.NetCMS.Core.Server.csproj", "{682C5E80-0C51-4481-A505-28981155D2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCodeDev.NetCMS.MyPlugin.Client", "OpenCodeDev.NetCMS.MyPlugin.Client\OpenCodeDev.NetCMS.MyPlugin.Client.csproj", "{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CompileCMS|Any CPU = CompileCMS|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52968F81-51AC-47C4-A516-91F0EC85172E}.CompileCMS|Any CPU.ActiveCfg = Release|Any CPU
+		{52968F81-51AC-47C4-A516-91F0EC85172E}.CompileCMS|Any CPU.Build.0 = Release|Any CPU
 		{52968F81-51AC-47C4-A516-91F0EC85172E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52968F81-51AC-47C4-A516-91F0EC85172E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52968F81-51AC-47C4-A516-91F0EC85172E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52968F81-51AC-47C4-A516-91F0EC85172E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3782E5-18CF-4395-B6A0-C56EC5F68FAC}.CompileCMS|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3782E5-18CF-4395-B6A0-C56EC5F68FAC}.CompileCMS|Any CPU.Build.0 = Release|Any CPU
 		{5A3782E5-18CF-4395-B6A0-C56EC5F68FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A3782E5-18CF-4395-B6A0-C56EC5F68FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A3782E5-18CF-4395-B6A0-C56EC5F68FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A3782E5-18CF-4395-B6A0-C56EC5F68FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69194935-ABDD-423A-9928-FF6E542EA519}.CompileCMS|Any CPU.ActiveCfg = Release|Any CPU
+		{69194935-ABDD-423A-9928-FF6E542EA519}.CompileCMS|Any CPU.Build.0 = Release|Any CPU
 		{69194935-ABDD-423A-9928-FF6E542EA519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{69194935-ABDD-423A-9928-FF6E542EA519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69194935-ABDD-423A-9928-FF6E542EA519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69194935-ABDD-423A-9928-FF6E542EA519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682C5E80-0C51-4481-A505-28981155D2C4}.CompileCMS|Any CPU.ActiveCfg = CompileCMS|Any CPU
+		{682C5E80-0C51-4481-A505-28981155D2C4}.CompileCMS|Any CPU.Build.0 = CompileCMS|Any CPU
+		{682C5E80-0C51-4481-A505-28981155D2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682C5E80-0C51-4481-A505-28981155D2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682C5E80-0C51-4481-A505-28981155D2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682C5E80-0C51-4481-A505-28981155D2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.CompileCMS|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.CompileCMS|Any CPU.Build.0 = Debug|Any CPU
+		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

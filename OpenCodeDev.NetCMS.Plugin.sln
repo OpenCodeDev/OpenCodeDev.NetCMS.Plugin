@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.MyPlugin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.Core.Server", "..\OpenCodeDev.NetCMS.Core\Server\OpenCodeDev.NetCMS.Core.Server.csproj", "{682C5E80-0C51-4481-A505-28981155D2C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCodeDev.NetCMS.MyPlugin.Client", "OpenCodeDev.NetCMS.MyPlugin.Client\OpenCodeDev.NetCMS.MyPlugin.Client.csproj", "{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.MyPlugin.Client", "OpenCodeDev.NetCMS.MyPlugin.Client\OpenCodeDev.NetCMS.MyPlugin.Client.csproj", "{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

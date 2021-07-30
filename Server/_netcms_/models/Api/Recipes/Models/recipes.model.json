@@ -51,9 +51,9 @@
     {
       "Domain": "OpenCodeDev.NetCMS",
       "Model": "Recipe",
-      "ArgumentOf": [ "Update", "Create", "Fetch" ],
+      "ArgumentOf": [ "Update", "Create", "Fetch", "Delete" ],
       "Type": "1-1",
-      "Optional": false,
+      "Dominant": false,
       "DeleteBehavior": "Cascade"
     }
   ]

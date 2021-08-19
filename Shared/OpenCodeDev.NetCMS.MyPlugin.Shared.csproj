@@ -5,4 +5,8 @@
     <Description>This is Shared resources between Client, Server and Admin. it could  be Model/Validation, Abstraction like Api Controllers and also Shared UI Components between Client and Admin.</Description>
   </PropertyGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="netcms prebuild -side &quot;shared&quot; -namespace &quot;$(TargetName)&quot; -output &quot;$(TargetDir)&quot; -root &quot; $(ProjectDir)&quot; -target &quot;$(ConfigurationName)&quot;" />
+  </Target>
+
 </Project>

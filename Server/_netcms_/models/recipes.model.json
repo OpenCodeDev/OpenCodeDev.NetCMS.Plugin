@@ -1,8 +1,8 @@
 {
   "Collection": {
     "Name": "Recipe",
-    "HasOwner": false, // False = Permission Owner will not be available.
-    "Internal": false, // External Endpoints are Disable (not accessible via api calls only internal)
+    "HasOwner": false,
+    "Internal": false
   },
   "Attributes": [
     {

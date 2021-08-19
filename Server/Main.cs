@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Reflection;
 using OpenCodeDev.NetCMS.Core.Server.Plugin;
-using OpenCodeDev.NetCMS.Plugin.Core.DataAnnotation;
 
 namespace OpenCodeDev.NetCMS.MyPlugin
 {

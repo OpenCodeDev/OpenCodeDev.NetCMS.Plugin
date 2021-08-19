@@ -1,0 +1,9 @@
+{
+    "General":{
+        "Name": "OpenCodeDev.NetCMS.MyPlugin",
+        "Author": "Max Samson",
+        "Company": "OpenCodeDev, Inc.",
+        "Version": "1.0.0"
+    },
+    "Dependencies":[]
+}

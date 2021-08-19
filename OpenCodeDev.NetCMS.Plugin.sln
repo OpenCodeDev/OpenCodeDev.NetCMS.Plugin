@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.MyPlugin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.MyPlugin.Admin", "Admin\OpenCodeDev.NetCMS.MyPlugin.Admin.csproj", "{69194935-ABDD-423A-9928-FF6E542EA519}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.Core.Server", "..\OpenCodeDev.NetCMS.Core\Server\OpenCodeDev.NetCMS.Core.Server.csproj", "{682C5E80-0C51-4481-A505-28981155D2C4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.MyPlugin.Client", "OpenCodeDev.NetCMS.MyPlugin.Client\OpenCodeDev.NetCMS.MyPlugin.Client.csproj", "{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCodeDev.NetCMS.Core.Server", "..\..\..\OpenCodeDev.NetCMS.Core\Server\OpenCodeDev.NetCMS.Core.Server.csproj", "{6883ED95-7550-4C8B-8B1C-8BF1C85A551D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,18 +38,18 @@ Global
 		{69194935-ABDD-423A-9928-FF6E542EA519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69194935-ABDD-423A-9928-FF6E542EA519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69194935-ABDD-423A-9928-FF6E542EA519}.Release|Any CPU.Build.0 = Release|Any CPU
-		{682C5E80-0C51-4481-A505-28981155D2C4}.CompileCMS|Any CPU.ActiveCfg = CompileCMS|Any CPU
-		{682C5E80-0C51-4481-A505-28981155D2C4}.CompileCMS|Any CPU.Build.0 = CompileCMS|Any CPU
-		{682C5E80-0C51-4481-A505-28981155D2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{682C5E80-0C51-4481-A505-28981155D2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{682C5E80-0C51-4481-A505-28981155D2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{682C5E80-0C51-4481-A505-28981155D2C4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.CompileCMS|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.CompileCMS|Any CPU.Build.0 = Debug|Any CPU
 		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F5F0D92-792F-4DB2-973D-B9235B1D9DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6883ED95-7550-4C8B-8B1C-8BF1C85A551D}.CompileCMS|Any CPU.ActiveCfg = CompileCMS|Any CPU
+		{6883ED95-7550-4C8B-8B1C-8BF1C85A551D}.CompileCMS|Any CPU.Build.0 = CompileCMS|Any CPU
+		{6883ED95-7550-4C8B-8B1C-8BF1C85A551D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6883ED95-7550-4C8B-8B1C-8BF1C85A551D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6883ED95-7550-4C8B-8B1C-8BF1C85A551D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6883ED95-7550-4C8B-8B1C-8BF1C85A551D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
